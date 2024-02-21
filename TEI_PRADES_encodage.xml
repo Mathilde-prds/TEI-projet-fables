@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/ODD_PRADES_encodage.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/ODD_PRADES_encodage.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fables choisies , mises en vers par M. de La Fontaine</title>
+            <author ref="ark:/12148/cb11910267w">
+               <forename>Jean de</forename>
+               <surname>La Fontaine</surname>
+            </author>
+            <respStmt xml:id="graveur">
+               <resp>Graveur</resp>
+               <persName>
+                  <forename>François</forename>
+                  <surname>Chauveau</surname>
+               </persName>
+            </respStmt>
+            <respStmt xml:id="encodeur">
+               <resp>Encodeur</resp>
+               <persName>
+                  <forename>Mathilde</forename>
+                  <surname>Prades</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Edition de 1668</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <forename>Claude</forename>
+               <surname>Barbin</surname>
+            </publisher>
+            <pubPlace>
+               <address>               
+                  <addrLine>A Paris,</addrLine>
+                  <addrLine>chez Claude Barbin,</addrLine> 
+                  <addrLine>au Palais sur le Perron de la sainte Chapelle</addrLine>
+                  <addrLine>France</addrLine>
+               </address>
+            </pubPlace>
+            <distributor>Bibliothèque nationale de France</distributor>
+            <idno type="ark">ark:/12148/btv1b8610825d</idno>
+            <availability status="free">
+               <licence target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica">Domaine public</licence>
+            </availability>
+            <date when="1668">1668</date> 
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic xml:id="fable9">
+                  <author ref="ark:/12148/cb11910267w">
+                     <forename>Jean de</forename>
+                     <surname>La Fontaine</surname>
+                  </author>
+                  <title>Le Rat de Ville &amp; le Rat de Champs</title>
+               </analytic>
+               <analytic xml:id="fable10">
+                  <author ref="ark:/12148/cb11910267w">
+                     <forename>Jean de</forename>
+                     <surname>La Fontaine</surname>
+                  </author>
+                  <title>Le Loup &amp; l'Agneau</title>
+               </analytic>
+               <analytic xml:id="fable11">
+                  <author ref="ark:/12148/cb11910267w">
+                     <forename>Jean de</forename>
+                     <surname>La Fontaine</surname>
+                  </author>
+                  <title>L'Homme &amp; son Image</title>
+               </analytic>
+               <monogr>
+                  <author ref="ark:/12148/cb11910267w">
+                     <forename>Jean de</forename>
+                     <surname>La Fontaine</surname>
+                  </author>
+                  <title>Fables choisies , mises en vers par M. de La Fontaine</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>
+                        <forename>Claude</forename>
+                        <surname>Barbin</surname>
+                     </publisher>
+                     <date when="1668">1668</date>   
+                  </imprint>
+               </monogr>
+               <citedRange from="21" to="26" unit="page" target="https://gallica.bnf.fr/ark:/12148/btv1b8610825d/f81.item"/>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Cet encodage a été réalisé à partir de la numérisation disponible sur Gallica des
+               Fables choisies, mises en vers par M. de La Fontaine, editée en 1668 par Claude Barbin.
+               L'encodage propose à la fois une transcription fidèle du texte et une transcription 
+               normalisée. Il indique également le schéma de rhyme des fables. Son objectif est de 
+               rendre ces textes accessibles à un jeune public succeptible de les étudier.</p>
+         </projectDesc>
+         <samplingDecl>
+            <p>Choix d'encoder trois fables</p>
+         </samplingDecl> 
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Français du 16e siècle</language>
+         </langUsage>
+         <particDesc>
+            <listPerson type="fictive">
+               <person xml:id="RV">
+                  <persName>Rat de Ville</persName>
+               </person>
+               <person xml:id="RC">
+                  <persName>Rat des Champs</persName>
+               </person>
+               <person xml:id="L">
+                  <persName>Loup</persName>
+               </person>
+               <person xml:id="A">
+                  <persName>Agneau</persName>
+               </person>
+               <person xml:id="H">
+                  <persName>Homme</persName>
+               </person>
+            </listPerson>
+            <listPerson type="real">
+               <person xml:id="LaRochefoucauld">
+               <persName>Monsieur le duc de La Rochefoucauld</persName>
+               <birth>1613</birth>
+               <death>1680</death>
+               <note>Auteur des Maximes auxquelles La Fontaine rend hommage dans "L'Homme et son Image"</note>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>  
+   </teiHeader>
+  <text>
+      <body>
+         <pb n="21" facs="https://gallica.bnf.fr/view3if/ga/ark:/12148/btv1b8610825d/f81"/> 
+         <div type="fable" corresp="#fable9">
+            <head rend="level2">FABLE NEUFIESME</head>
+            <figure>
+               <graphic url="img/fable9_p1_gravure.jpg"/>
+               <figDesc>Deux rats cachés derrière une table, un homme qui ouvre la porte en arrière plan</figDesc>
+            </figure>
+            <head rend="level3">Le Rat de Ville &amp; le Rat des Champs.</head>
+            <div type="exposition">
+               <lg type="stanza" n="1" rhyme="ABAB">
+                  <l>Autrefois le <persName ref="#RV">Rat de ville</persName></l>
+                  <l>Invita le <persName ref="#RC">Rat des champs</persName>,</l>
+                  <l>D’une façon fort civile,</l> 
+                  <l>A des reliefs d’Ortolans.</l>
+               </lg>
+            </div>
+            <div type="corps">
+               <lg type="stanza" n="2" rhyme="AAAA">
+                  <l>Sur un tapis de Turquie</l>
+                  <l>Le couvert <choice><orig>ſe</orig><reg>se</reg></choice> trouva mis :</l>       
+                  <l>Je <choice><orig>laiſſe</orig><reg>laisse</reg></choice> à <choice><orig>penſer</orig><reg>penser</reg></choice> la vie</l>
+                  <l>Que firent ces deux amis.</l>        
+               </lg>
+               
+               <pb n="22" facs="https://gallica.bnf.fr/view3if/ga/ark:/12148/btv1b8610825d/f82"/>
+   
+               <lg type="stanza" n="3" rhyme="ABAB">
+                  <l>Le régal fut fort <choice><orig>honeſte</orig><reg>honnête</reg></choice>,</l>
+                  <l>Rien ne <choice><orig>manquoit</orig><reg>manquait</reg></choice> au <choice><orig>feſtin</orig><reg>festin</reg></choice> ;</l> 
+                  <l>Mais quelqu’un troubla la <choice><orig>feſte</orig><reg>fête</reg></choice>,</l>
+                  <l>Pendant qu’<persName ref="#RV #RC">ils</persName> <choice><orig>eſtoient</orig><reg>étaient</reg></choice> entrain.</l>
+               </lg>
+               <lg type="stanza" n="4" rhyme="ABAB">
+                   <l>A la porte de la <choice><orig>Sale</orig><reg>salle</reg></choice></l>
+                   <l><persName ref="#RV #RC">Ils</persName> entendirent du bruit ;</l>
+                  <l>Le <persName ref="#RV">Rat de ville</persName> détale,</l>
+                  <l><persName ref="#RC">Son camarade</persName> le <choice><orig>ſuit</orig><reg>suit</reg></choice>.</l>
+                </lg>
+               <lg type="stanza" n="5" rhyme="ABAB">
+                   <l>Le bruit <choice><orig>ceſſe</orig><reg>cesse</reg></choice>, on <choice><orig>ſe</orig><reg>se</reg></choice> retire :</l>
+                   <l><persName ref="#RC">Rats en campagne</persName> <choice><orig>auſſi-toſt</orig><reg>aussi-tôt</reg></choice> :</l>
+                   <l>Et <persName ref="#RV">le Citadin</persName> de dire,</l>
+                   <l>Achevons tout <choice><orig>noſtre</orig><reg>notre</reg></choice> <choice><orig>roſt</orig><reg>rost</reg></choice>.</l>
+                </lg> 
+               <lg type="stanza" n="6" rhyme="ABAB">
+                  <l><choice><orig>C'eſt</orig><reg>C'est</reg></choice> <choice><orig>aſſez</orig><reg>assez</reg></choice>, dit <persName ref="#RC">le <choice><orig>Ruſtique</orig><reg>Rustique</reg></choice></persName> ;</l>
+                    <l>Demain vous viendrez chez <choice><orig>moy</orig><reg>moi</reg></choice> ;</l>
+                   <l>Ce <choice><orig>n'eſt</orig><reg>n'est</reg></choice> pas que je me <choice><orig>picque</orig><reg>pique</reg></choice>,</l> 
+                   <l>De tous vos <choice><orig>feſtins</orig><reg>festins</reg></choice> de <choice><orig>Roy</orig><reg>roi</reg></choice>.</l>
+                </lg>
+               </div>
+               <div type="morale">
+                  <lg type="stanza" n="7" rhyme="ABBA">
+                     <l>Mais rien ne vient <persName ref="#RC">m’</persName>interrompre ;</l> 
+                     <l><persName ref="RC">Je</persName> mange tout à <choice><orig>loiſir</orig><reg>loisir</reg></choice> :</l>
+                     <l>Adieu donc, <choice><orig>fy</orig><reg>fi</reg></choice> du <choice><orig>plaiſir</orig><reg>plaisir</reg></choice> ;</l>
+                     <l>Que la crainte peut corrompre.</l>
+                  </lg>
+               </div>
+         </div>
+         
+         <pb n="23" facs="https://gallica.bnf.fr/view3if/ga/ark:/12148/btv1b8610825d/f83"/>
+         
+         <div type="fable" corresp="#fable10">
+            <head rend="level2">FABLE DIXIESME</head>
+            <figure>
+               <graphic url="img/fable10_p1_gravure.jpg"/>
+               <figDesc>Un loup menançant un agneau au bord d'une rivière</figDesc>
+            </figure>
+               <head rend="level3">Le Loup &amp; l’Agneau.</head>
+            <div type="morale">
+               <lg type="stanza" n="1" rhyme="AA">
+                  <l>La raison du plus fort <choice><orig>eſt</orig><reg>est</reg></choice> toujours la meilleure ;</l>
+                  <l>Nous l’allons <choice><orig>monſtrer</orig><reg>montrer</reg></choice> tout à l’heure,</l>
+               </lg>
+            </div>
+            <div type="exposition">
+               <lg type="stanza" n="2" rhyme="ABBA">
+                  <l>Un <persName ref="#A">Agneau</persName> <choice><orig>ſe</orig><reg>se</reg></choice> <choice><orig>deſalteroit</orig><reg>désaltérait</reg></choice>,</l> 
+                  <l>Dans le courant d’une onde pure :</l>
+                  <l>Un <persName ref="#L">Loup</persName> <choice><orig>ſurvient</orig><reg>survient</reg></choice> à jeun qui <choice><orig>cherchoit</orig><reg>cherchait</reg></choice> <choice><orig>avanture</orig><reg>aventure</reg></choice> ;</l> 
+                  <l>Et que la faim en ces lieux <choice><orig>attiroit</orig><reg>attira</reg></choice>.</l>
+               </lg>
+            </div>
+            <div type="corps">
+               <lg type="stanza" n="3" rhyme="AABB">
+                  <l>Qui <persName ref="#A">te</persName> rend <choice><orig>ſi</orig><reg>si</reg></choice> <choice><orig>hardy</orig><reg>hardi</reg></choice> de troubler mon breuvage ?</l>
+                  <l>Dit <persName ref="#L">cet animal plein de rage</persName> ;</l> 
+                  
+                  <pb n="24" facs="https://gallica.bnf.fr/view3if/ga/ark:/12148/btv1b8610825d/f84"/>
+   
+                  <l><persName ref="#A">Tu</persName> <choice><orig>ſeras</orig><reg>seras</reg></choice> <choice><orig>chaſtié</orig><reg>châtié</reg></choice> de ta temerité.</l>
+                  <l><persName ref="#L">Sire</persName>, répond l’<persName ref="#A">Agneau</persName>, que <choice><orig>voſtre</orig><reg>votre</reg></choice> <persName ref="#L">Majesté</persName></l>
+               </lg>
+               <lg type="stanza" n="4" rhyme="AABB">
+                  <l>Ne <choice><orig>ſe</orig><reg>se</reg></choice> mette pas en <choice><orig>colere</orig><reg>colère</reg></choice> ;</l>
+                  <l>Mais <choice><orig>plûtoſt</orig><reg>plutôt</reg></choice> qu’<persName ref="#L">elle</persName> <choice><orig>conſidere</orig><reg>considère</reg></choice>,</l>
+                  <l>Que <persName ref="#A">je</persName> me <choice><orig>vas</orig><reg>vais</reg></choice> <choice><orig>deſalterant</orig><reg>désaltérant</reg></choice></l>
+                  <l>Dans le courant,</l>
+               </lg>
+               <lg type="stanza" n="5" rhyme="ABBA">
+                  <l>Plus de vingt pas au <choice><orig>deſſous</orig><reg>dessous</reg></choice> d’<persName ref="#L">Elle</persName> ;</l>
+                  <l>Et que par <choice><orig>conſequent</orig><reg>conséquent</reg></choice> en aucune façon,</l>
+                  <l><persName ref="#A">Je</persName> ne puis troubler <choice><orig>ſa</orig><reg>sa</reg></choice> <choice><orig>boiſſon</orig><reg>boisson</reg></choice>.</l>
+                  <l><persName ref="#A">Tu</persName> la troubles, reprit <persName ref="#L">cette <choice><orig>beſte</orig><reg>bête</reg></choice> cruelle</persName> ;</l>
+               </lg>
+               <lg type="stanza" n="6" rhyme="AABBCBC">
+                  <l>Et <persName ref="#L">je</persName> <choice><orig>ſçais</orig><reg>sais</reg></choice> que de <persName ref="#L"><choice><orig>moy</orig><reg>moi</reg></choice></persName> <persName ref="#A">tu</persName> médis l’an <choice><orig>paſſé</orig><reg>passé</reg></choice>.</l> 
+                  <l>Comment l’<choice><orig>aurois</orig><reg>aurais</reg></choice>-<persName ref="#A">je</persName> fait <choice><orig>ſi</orig><reg>si</reg></choice> <persName ref="#A">je</persName> n’<choice><orig>eſtoit</orig><reg>étais</reg></choice> pas né ?</l>
+                  <l>Reprit l’<persName ref="#A">Agneau</persName> ; <persName ref="#A">je</persName> <choice><orig>tette</orig><reg>tète</reg></choice> <choice><orig>encor</orig><reg>encore</reg></choice> ma <choice><orig>mere</orig><reg>mère</reg></choice>.</l>
+                  <l>Si ce n’<choice><orig>eſt</orig><reg>est</reg></choice> <persName ref="#A"><choice><orig>toy</orig><reg>toi</reg></choice></persName>, c’<choice><orig>eſt</orig><reg>est</reg></choice> donc ton <choice><orig>frere</orig><reg>frère</reg></choice>.</l>
+                  <l><persName ref="#A">Je</persName> n’en <choice><orig>ay</orig><reg>ai</reg></choice> point. C’<choice><orig>eſt</orig><reg>est</reg></choice> donc quelqu’un des tiens :</l> 
+                  <l>Car vous ne <persName ref="#L">m</persName>’épargnez <choice><orig>guere</orig><reg>guère</reg></choice>,</l>
+                  <l>Vous, vos Bergers, &amp; vos Chiens ;</l>
+               </lg>
+               <lg type="stanza" n="7" rhyme="ABAB">
+                  <l>On <persName ref="#L">me</persName> l’a dit : il faut que <persName ref="#L">je</persName> me <choice><orig>vange</orig><reg>venge</reg></choice>.</l> 
+                  <l>Là <choice><orig>deſſus</orig><reg>dessus</reg></choice> au fond des <choice><orig>foreſts</orig><reg>forêts</reg></choice></l>
+                  <l>Le <persName ref="#L">Loup</persName> <persName ref="#A">l</persName>’emporte ; &amp; puis <persName ref="#A">le</persName> mange</l> 
+                  <l>Sans autre forme de <choice><orig>procez</orig><reg>procès</reg></choice>.</l>
+               </lg>
+            </div>
+         </div>
+         
+         <pb n="25" facs="https://gallica.bnf.fr/view3if/ga/ark:/12148/btv1b8610825d/f85"/>
+            
+         <div type="fable" corresp="#fable11">
+            <head rend="level2">FABLE ONZIESME.</head>
+            <figure>
+               <graphic url="img/fable11_p1_gravure.jpg"/>
+               <figDesc>Un homme détournant le regard de son reflet dans l'eau d'un ruisseau</figDesc>
+            </figure>
+            <head rend="level3">L’Homme, &amp; Son Image</head>
+            <div type="dedication"><p><persName ref="#LaRochefoucauld">Pour M.L.D.D.L.R.</persName></p></div>
+           <div type="exposition">
+              <lg type="stanza" n="1" rhyme="ABAB">
+                  <l>Un <persName ref="#H">Homme</persName> qui <choice><orig>s'aimoit</orig><reg>s'aimait</reg></choice> <choice><orig>ſans</orig><reg>sans</reg></choice> avoir de rivaux,</l> 
+                  <l><choice><orig>Paffoit</orig><reg>Passait</reg></choice> dans <choice><orig>fon</orig><reg>son</reg></choice> <choice><orig>eſprit</orig><reg>esprit</reg></choice> pour le plus beau du monde :</l> 
+                  <l><persName ref="#H">Il</persName> <choice><orig>accuſoit</orig><reg>accusait</reg></choice> toujours les miroirs, d’<choice><orig>eſtre</orig><reg>être</reg></choice> faux,</l> 
+                  <l>Vivant plus que content dans <choice><orig>ſon</orig><reg>son</reg></choice> erreur profonde.</l> 
+              </lg>
+           </div>
+            <div type="corps">
+               <lg type="stanza" n="2" rhyme="AABCCB">
+                   <l>Afin de le <choice><orig>guerir</orig><reg>guérir</reg></choice>, le Sort officieux</l> 
+                   <l><choice><orig>Preſentoit</orig><reg>Présentait</reg></choice> par tout à <choice><orig>ſes</orig><reg>ses</reg></choice> yeux,</l>
+                   <l>Les <choice><orig>Conſeillers</orig><reg>conseillers</reg></choice> muets dont <choice><orig>ſe ſervent</orig><reg>se servent</reg></choice> nos Dames ;</l>
+                   <l>Miroirs dans les logis, miroirs chez les Marchands,</l>
+                   
+            <pb n="26" facs="https://gallica.bnf.fr/view3if/ga/ark:/12148/btv1b8610825d/f86"/>
+                   
+                   <l>Miroirs aux poches des Galands,</l> 
+                   <l>Miroirs aux ceintures des femmes.</l>
+                </lg>
+               <lg type="stanza" n="3" rhyme="AABBCC">
+                   <l>Que fait <persName ref="#H"><choice><orig>noſtre</orig><reg>notre</reg></choice> <choice><orig>Narciſſe</orig><reg>Narcisse</reg></choice></persName> ? Il <choice><orig>ſe</orig><reg>se</reg></choice> va confiner</l> 
+                   <l>Aux lieux les plus cachez qu’<persName ref="#H">il</persName> peut s’imaginer,</l>
+                   <l>N’<choice><orig>oſant</orig><reg>osant</reg></choice> plus des miroirs éprouver l’<choice><orig>avanture</orig><reg>aventure</reg></choice>.</l>
+                   <l>Mais un canal formé par une <choice><orig>ſource</orig><reg>source</reg></choice> pure</l>
+                   <l>Se trouve en ces lieux <choice><orig>écartez</orig><reg>écartés</reg></choice> :</l>
+                   <l><persName ref="#H">Il</persName> s’y <choice><orig>void</orig><reg>voit</reg></choice>, <persName ref="#H">il</persName> <choice><orig>ſe faſche</orig><reg>se fâche</reg></choice> ; &amp; <choice><orig>ſes</orig><reg>ses</reg></choice> yeux <choice><orig>irritez</orig><reg>irrités</reg></choice></l>
+                </lg>
+               <lg type="stanza" n="4" rhyme="ABBA">
+                   <l><choice><orig>Penfent</orig><reg>Pensent</reg></choice> apercevoir une <choice><orig>Chimere</orig><reg>Chimère</reg></choice> vaine :</l> 
+                   <l><persName ref="#H">Il</persName> fait tout ce qu’<persName ref="#H">il</persName> peut pour éviter cette eau.</l> 
+                   <l>Mais <choice><orig>quoy</orig><reg>quoi</reg></choice>, le canal <choice><orig>eft</orig><reg>est</reg></choice> <choice><orig>ſi</orig><reg>si</reg></choice> beau,</l>
+                   <l>Qu’<persName ref="#H">il</persName> ne le quitte qu’avec peine.</l>
+                </lg>
+            </div>
+            <div type="morale">
+               <lg type="stanza" n="5" rhyme="ABAB">
+               <l>On <choice><orig>void</orig><reg>voit</reg></choice> bien où je veux venir :</l>
+               <l>Je parle à tous ; &amp; cette erreur extême,</l>
+               <l><choice><orig>Eſt</orig><reg>Est</reg></choice> un mal que chacun <choice><orig>ſe plaiſt</orig><reg>se plaît</reg></choice> d’entretenir.</l>
+               <l><choice><orig>Noſtre</orig><reg>Notre</reg></choice> <choice><orig>ame</orig><reg>âme</reg></choice> c’<choice><orig>eſt</orig><reg>est</reg></choice> <persName ref="#H">cet Homme amoureux de <choice><orig>luy-mesme</orig><reg>lui-même</reg></choice></persName> ;</l>
+            </lg>
+            <lg type="stanza" n="6" rhyme="ABAB">
+               <l>Tant de Miroirs ce <choice><orig>ſont</orig><reg>sont</reg></choice> les <choice><orig>ſottiſes</orig><reg>sottises</reg></choice> d’<choice><orig>autruy</orig><reg>autrui</reg></choice> ;</l>
+               <l>Miroirs de nos defauts les Peintres <choice><orig>legitimes</orig><reg>légitimes</reg></choice> ;</l>
+               <l>Et quant au Canal, c’<choice><orig>eſt</orig><reg>est</reg></choice> <choice><orig>celuy</orig><reg>celui</reg></choice></l>
+               <l>Que chacun <choice><orig>ſçait</orig><reg>sait</reg></choice>, <ref resp="#LaRochefoucauld">le Livre des Maximes</ref>.</l> 
+            </lg>
+          </div>
+         </div>             
+      </body>
+  </text>
+</TEI>
