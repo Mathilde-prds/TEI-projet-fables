@@ -6,10 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fables choisies , mises en vers par M. de La Fontaine</title>
+            <title>Fables choisies, mises en vers par M. de La Fontaine</title>
             <author ref="ark:/12148/cb11910267w">
-               <forename>Jean de</forename>
-               <surname>La Fontaine</surname>
+               <forename>Jean</forename>
+               <surname>de La Fontaine</surname>
             </author>
             <respStmt xml:id="graveur">
                <resp>Graveur</resp>
@@ -53,31 +53,31 @@
             <biblStruct>
                <analytic xml:id="fable9">
                   <author ref="ark:/12148/cb11910267w">
-                     <forename>Jean de</forename>
-                     <surname>La Fontaine</surname>
+                     <forename>Jean</forename>
+                     <surname>de La Fontaine</surname>
                   </author>
                   <title>Le Rat de Ville &amp; le Rat de Champs</title>
                </analytic>
                <analytic xml:id="fable10">
                   <author ref="ark:/12148/cb11910267w">
-                     <forename>Jean de</forename>
-                     <surname>La Fontaine</surname>
+                     <forename>Jean</forename>
+                     <surname>de La Fontaine</surname>
                   </author>
                   <title>Le Loup &amp; l'Agneau</title>
                </analytic>
                <analytic xml:id="fable11">
                   <author ref="ark:/12148/cb11910267w">
-                     <forename>Jean de</forename>
-                     <surname>La Fontaine</surname>
+                     <forename>Jean</forename>
+                     <surname>de La Fontaine</surname>
                   </author>
                   <title>L'Homme &amp; son Image</title>
                </analytic>
                <monogr>
                   <author ref="ark:/12148/cb11910267w">
-                     <forename>Jean de</forename>
-                     <surname>La Fontaine</surname>
+                     <forename>Jean</forename>
+                     <surname>de La Fontaine</surname>
                   </author>
-                  <title>Fables choisies , mises en vers par M. de La Fontaine</title>
+                  <title>Fables choisies, mises en vers par M. de La Fontaine</title>
                   <imprint>
                      <pubPlace>Paris</pubPlace>
                      <publisher>
@@ -96,8 +96,9 @@
             <p>Cet encodage a été réalisé à partir de la numérisation disponible sur Gallica des
                Fables choisies, mises en vers par M. de La Fontaine, editée en 1668 par Claude Barbin.
                L'encodage propose à la fois une transcription fidèle du texte et une transcription 
-               normalisée. Il indique également le schéma de rhyme des fables. Son objectif est de 
-               rendre ces textes accessibles à un jeune public succeptible de les étudier.</p>
+               normalisée. Il indique également le schéma de rhyme des fables et leur structure. 
+               Son objectif est de rendre ces textes accessibles à un jeune public succeptible de 
+               les étudier.</p>
          </projectDesc>
          <samplingDecl>
             <p>Choix d'encoder trois fables</p>
