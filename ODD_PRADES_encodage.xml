@@ -7,7 +7,7 @@
             <title type="sub">Schéma créé avec Oddbyexample</title>
          </titleStmt>
          <publicationStmt>
-            <p>Edition encodée par Mathilde Prades, d'après Jean de LA FONTAINE, Fables choisies , mises en vers par M. de La Fontaine, Claude Barbin, 1668, pp. 21-26.</p>
+            <p>Edition encodée par Mathilde Prades, d'après Jean de LA FONTAINE, Fables choisies, mises en vers par M. de La Fontaine, Claude Barbin, 1668, pp. 21-26.</p>
          </publicationStmt>
          <sourceDesc>
             <p>Dérivé de <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">l'odd de la TEI</ref> après l'analyse des fichiers TEI du rendu.</p>
@@ -17,19 +17,19 @@
    <text>
       <body>
          <div1>
-            <head>Guide d'encodage des <emph rend="title">Fables choisies, mises en vers par M. de La Fontaine</emph>, publiées en 1668 
+            <head>Guide d'encodage des <emph rend="title">Fables choisies, mises en vers par M. de La Fontaine</emph>, publiées en 1668
                par Claude Barbin.</head>
             <p>Cette documentation se propose d'expliquer comment ont été encodées en <orgName><ref target="https://www.tei-c.org">XML-TEI</ref></orgName> 
                les fables extraites de l'oeuvre citée en titre, ainsi que les objectifs de ce schéma.</p>
             <div2>
                <head>Présentation du projet</head>
-               <p>Ce projet est une proposition d'encodage numérique des fables 9, 10 et 11 des <emph rend="title">Fables choisies , mises en vers par M. de 
+               <p>Ce projet est une proposition d'encodage numérique des fables 9, 10 et 11 des <emph rend="title">Fables choisies, mises en vers par M. de 
                   La Fontaine</emph>. Il vise à rendre le texte de ces fables et les particularités de leur forme plus facilement accessible à un jeune public.
                   Il propose ainsi à la fois une transcription fidèle du texte et une transcription normalisée. Il indique également le schéma de rhyme des fables 
                   et leur structure ce qui permet d'en faire une étude précise afin de mieux comprendre la manière dont l'auteur pense la forme de ses fables. En 
-                  effet, leur structure et leur musicalité sont à la fois classiquement similaires et à la fois légèrement changeante d'une fable à une autre ce 
-                  qui rend cette étude pertinente.Chaque fable commence par une gravure dans l'oeuvre originale. L'encodage prend le parti de les afficher car elles 
-                  aident à la pleine compréhension du texte.</p>
+                  effet, leur structure et leur musicalité sont à la fois classiquement similaires et à la fois légèrement changeantes d'une fable à une autre ce 
+                  qui rend cette étude pertinente. Enfin, chaque fable commence par une gravure dans l'oeuvre originale. L'encodage prend le parti de les afficher 
+                  car elles aident à la pleine compréhension du texte.</p>
                <p>Cet encodage a été pensé de telle sorte qu'il puisse, à l'aide de cette documentation, être appliqué à l'ensemble des fables de ce recueil.</p>
             </div2>
             <div2>
@@ -61,7 +61,7 @@
                   </publicationStmt>
                </egXML>
                <p>Le <gi>respStmt</gi> permet d'identifier d'autres rôles que celui de l'auteur, ici l'encodeur de l'édition numérique et le graveur de l'édition originale. Cette balise prendra un 
-                  attribut <att>xml:id</att> ayant pour valeur "<val>encodeur</val>" ou "<val>graveur</val>" ou tout autre rôle significatif. Cette fonction sera également indiquée dans la balise 
+                  attribut <att>xml:id</att> ayant pour valeur "<val>encodeur</val>", "<val>graveur</val>" ou tout autre rôle significatif. Cette fonction sera également indiquée dans la balise 
                   <gi>resp</gi>.</p>
                <egXML xmlns="http://www.tei-c.org/ns/Examples">
                   <respStmt xml:id="encodeur">
@@ -115,7 +115,7 @@
                            <forename>Jean de</forename>
                            <surname>La Fontaine</surname>
                         </author>
-                        <title>Fables choisies , mises en vers par M. de La Fontaine</title>
+                        <title>Fables choisies, mises en vers par M. de La Fontaine</title>
                         <imprint>
                            <pubPlace>Paris</pubPlace>
                            <publisher>
@@ -128,13 +128,13 @@
                   </biblStruct>
                </egXML>
                <p>Afin d'indiquer la partie encodée de l'oeuvre, nous utilisons la balise <gi>citedRange</gi>. Cette balise possède quatre attributs <att>unit</att>, indiquant l'unité dans laquelle nous
-                  comptons l'intervalle, <att>from</att> et <att>to</att> indiquant les extrémités de l'intervalle et <att>target</att> renseignant le lien vers la numérisation de l'oeuvre.</p>
+                  comptons l'intervalle, <att>from</att> et <att>to</att> indiquant les extrémités de l'intervalle et <att>target</att> renseignant le lien vers la numérisation de l'oeuvre originale.</p>
                <egXML xmlns="http://www.tei-c.org/ns/Examples">
                   <biblStruct>
                      <citedRange from="21" to="26" unit="page" target="https://gallica.bnf.fr/ark:/12148/btv1b8610825d/f81.item"/>
                   </biblStruct>
                </egXML>
-               <p>Au sein du <gi>profileDesc</gi>, la balise <gi>langUsage</gi> contenant la balise <gi>language</gi>est utilisée afin d'indiquer la langue et son année car l'état de la langue a évolué au 
+               <p>Au sein du <gi>profileDesc</gi>, la balise <gi>langUsage</gi> contenant la balise <gi>language</gi> est utilisée afin d'indiquer la langue et son année car l'état de la langue a évolué au 
                   travers des siècles. L'attribut <att>ident</att> permet lui d'identifier la langue du texte sans plus de précisions.</p>
                <egXML xmlns="http://www.tei-c.org/ns/Examples">
                   <profileDesc>
@@ -223,10 +223,10 @@
                      compréhension de ces schémas consistent en une première entrée vers l'étude de la forme de ces textes, c'est pourquoi cet encodage, dont le but est de rendre
                      facilement accessible ces textes du XVIIe siècle, découpe le texte selon son schéma de rimes. En effet, le texte est découpé en strophes, ou "stanza", indiqué
                      dans l'attribut <att>type</att> de la balise <gi>lg</gi> qui les encode. Ces strophes sont numérotées pour chaque fable au sein d'un attribut <att>n</att> de la 
-                     balise <gi>lg</gi> et le schéma de rimes est indiqué dans l'attribut <att>rhyme</att> sous la forme "ABAB" plus facilement compréhensible par tous que le vocabulaire 
+                     balise <gi>lg</gi> et le schéma de rimes est indiqué dans l'attribut <att>rhyme</att> sous la forme "ABAB" plus facilement compréhensible par tous qu'un vocabulaire 
                      comme "embrassées". L'encodage du schéma de rimes au sein de cet attribut est préféré à l'encodage propre de chaque rime au sein du texte par soucis de lisibilité 
-                     mais également car c'est ce schéma qui guide le découpage des strophes lg. L'encodage des rimes nous permet ainsi de faire une étude de leur utilisation par l'auteur 
-                     au sein de ce corpus ce qui pourrait nous donner plus d'informations sur la manière dont il pense la musicalité de ses textes.</p>
+                     mais également car c'est ce schéma qui guide le découpage des strophes <gi>lg</gi>. L'encodage des rimes nous permet ainsi de faire une étude de leur utilisation par 
+                     l'auteur au sein de ce corpus ce qui pourrait nous donner plus d'informations sur la manière dont il pense la musicalité de ses textes.</p>
                   <egXML xmlns="http://www.tei-c.org/ns/Examples">
                      <lg type="stanza" n="1" rhyme="ABAB">
                         <!-- Encodage de la strophe -->
@@ -236,13 +236,13 @@
                <div3>
                   <head>Permettre une pleine compréhension du texte</head>
                   <p>Afin de rendre le texte accessible à tous, le choix a été fait d'indiquer une version modernisée du texte en parallèle de la version originale.La balise <gi>choice</gi> 
-                     contenant les balises <gi>orig</gi> et <gi>reg</gi> ont été choisi.</p>
+                     contenant obligatoirement les balises <gi>orig</gi> et <gi>reg</gi> dans cet ordre ont été choisi.</p>
                   <egXML xmlns="http://www.tei-c.org/ns/Examples">
                      <l>Rien ne <choice><orig>manquoit</orig><reg>manquait</reg></choice> au <choice><orig>feſtin</orig><reg>festin</reg></choice> ;</l> 
                   </egXML>
                   <p>Afin de s'assurer de la pleine compréhension du texte, un index des personnage a été réalisé dans le <gi>teiHeader</gi> et la balise <gi>persName</gi> est utilisée avec
                      un attribut <att>ref</att> pour indiquer à quel personnage les sujets de phrases (périphrases, pronoms, etc) font références. Cela permet ainsi de désambiguiser totalement
-                     certaines tournures qui ne pourraient pas être claires pour tous.</p>
+                     certaines tournures qui ne pourraient pas être claires pour tous. Une étude de la manière dont les personnages sont désignés est ainsi également permise.</p>
                   <egXML xmlns="http://www.tei-c.org/ns/Examples">
                      <l><persName ref="#RV #RC">Ils</persName> entendirent du bruit ;</l>
                      <l><persName ref="#RV">Le Rat de ville</persName> détale,</l>
@@ -251,7 +251,7 @@
                   <p>Au sein de la fable 11, nous rencontrons une dédicace à "M.L.D.D.L.R". Le choix a été fait de considérer cela comme une partie de la fable, au même titre que la morale par
                      exemple. Nous utilisons donc également la balise <gi>div</gi> avec un attribut <att>type</att> qui prend pour ce cas la valeur "<val>dedication</val>". En son sein, nous 
                      utilisons, comme pour les personnages, la balise <gi>persName</gi> avec l'attribut <att>ref</att> afin de faire référence à l'index des personnes réelles du <gi>teiHeader</gi>
-                     au sein duquel des informations plus détaillées sur cette personnes sont indiquées.</p>
+                     au sein duquel des informations plus détaillées sur cette personne sont indiquées.</p>
                   <egXML xmlns="http://www.tei-c.org/ns/Examples">
                      <div type="dedication"><p><persName ref="#LaRochefoucauld">Pour M.L.D.D.L.R.</persName></p></div>
                   </egXML>
