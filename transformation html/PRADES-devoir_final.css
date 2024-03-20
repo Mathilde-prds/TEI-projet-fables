@@ -1,0 +1,29 @@
+.container{
+    background-color: #CA7C5C;
+    color: #EED7C5;
+    text-align: center; 
+}
+
+.nav{
+    margin: 30px;
+    text-align: center;
+}
+
+.link{
+    color: #C23028;
+    text-decoration: none;
+}
+
+.h1{
+    color : #84181C;
+}
+
+.h2{
+    color: #A3232B;
+}
+
+.h4{
+    text-decoration: underline;
+    color: #560905;
+}
+
