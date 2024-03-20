@@ -337,6 +337,8 @@
                         </div>
                     </div>
                     <div class="nav">
+                        <a href="{$fable9}" class="link">Précédente</a>
+                        <xsl:text> ⁂ </xsl:text>
                         <a href="{$home}" class="link">Page d'accueil</a>
                         <xsl:text> ⁂ </xsl:text>
                         <a href="./{$fable11}" class="link">Suivante</a>
@@ -476,6 +478,8 @@
                         </div>
                     </div>
                     <div class="nav">
+                        <a href="{$fable10}" class="link">Précédente</a>
+                        <xsl:text> ⁂ </xsl:text>
                         <a href="{$home}" class="link">Page d'accueil</a>
                     </div>
                     <footer>
